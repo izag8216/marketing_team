@@ -1,31 +1,31 @@
-# AI Marketing Team アプリ
+# AI Marketing Team App
 
-## 概要
-**AI Marketing Teamは、6つの専門AIエージェント（オーケストレーター、戦略プランナー、コンテンツクリエーター、SEO/SEMスペシャリスト、ソーシャルメディアマネージャー、データアナリスト）が連携し、ユーザーのビジネスにおけるマーケティング活動を全面的にサポートすることを目指すWebアプリケーションです。**
+## Overview
+**AI Marketing Team is a web application that aims to provide comprehensive support for users' business marketing activities through the collaboration of six specialized AI agents: Orchestrator, Strategy Planner, Content Creator, SEO/SEM Specialist, Social Media Manager, and Data Analyst.**
 
-本プロジェクトでは、このコンセプトを提示する魅力的なランディングページ（LP）を持つMVPデモサイトをHTML/CSS/JSで構築します。
-**現在の主目的は、AI駆動の並列開発環境（Cursor, Claude Code, Git Worktree, tmux, GitHub Actions等）を構築することであり、LPやエージェント管理画面の機能はダミーデータの表示に留め、高度なバックエンド機能は実装しません。**
-ローカルの data.txt にAIエージェント情報のCRUD操作（のダミー機能）を想定します。
+This project builds an MVP demo site with an attractive landing page (LP) using HTML/CSS/JS to present this concept.
+**The current primary purpose is to establish an AI-driven parallel development environment (Cursor, Claude Code, Git Worktree, tmux, GitHub Actions, etc.). The LP and agent management screen functionality is limited to displaying dummy data, and advanced backend features are not implemented.**
+Local data.txt is assumed to handle CRUD operations (dummy functionality) for AI agent information.
 
-## AIエージェント構成
-1.  **オーケストレーター (Orchestrator Agent)**:
-    -   役割: マーケティングチーム全体の司令塔。各エージェントのタスク調整、進捗監視、リソース配分、チーム全体のパフォーマンス最適化。
-2.  **戦略プランナー (Strategy Planner Agent)**:
-    -   役割: 市場動向・競合を分析し、データに基づいたマーケティング戦略を策定。ターゲット顧客の特定、キャンペーン目標設定、予算配分計画。
-3.  **コンテンツクリエーター (Content Creator Agent)**:
-    -   役割: 魅力的なマーケティングコンテンツ（ブログ、SNS投稿、動画、インフォグラフィック等）を企画・制作。ブランドメッセージの一貫性を担保。
-4.  **SEO/SEMスペシャリスト (SEO/SEM Specialist Agent)**:
-    -   役割: Webサイトの検索エンジン最適化（SEO）と検索エンジンマーケティング（SEM）戦略を実行。オーガニック検索流入増と広告ROI最大化。
-5.  **ソーシャルメディアマネージャー (Social Media Manager Agent)**:
-    -   役割: 主要SNSプラットフォームでのブランドプレゼンス構築・管理。エンゲージメント促進、フォロワー増加、ブランドロイヤルティ向上。
-6.  **データアナリスト (Data Analyst Agent)**:
-    -   役割: マーケティング活動全般のデータを収集・分析。キャンペーン効果測定、顧客行動インサイト抽出、戦略改善のためのレポート作成。
+## AI Agent Configuration
+1.  **Orchestrator Agent**:
+    -   Role: Command center for the entire marketing team. Task coordination between agents, progress monitoring, resource allocation, and overall team performance optimization.
+2.  **Strategy Planner Agent**:
+    -   Role: Analyzes market trends and competitors to formulate data-driven marketing strategies. Target customer identification, campaign goal setting, and budget allocation planning.
+3.  **Content Creator Agent**:
+    -   Role: Plans and creates engaging marketing content (blogs, social media posts, videos, infographics, etc.). Ensures brand message consistency.
+4.  **SEO/SEM Specialist Agent**:
+    -   Role: Executes website search engine optimization (SEO) and search engine marketing (SEM) strategies. Increases organic search traffic and maximizes advertising ROI.
+5.  **Social Media Manager Agent**:
+    -   Role: Builds and manages brand presence on major social media platforms. Promotes engagement, increases followers, and improves brand loyalty.
+6.  **Data Analyst Agent**:
+    -   Role: Collects and analyzes data from all marketing activities. Measures campaign effectiveness, extracts customer behavior insights, and creates reports for strategic improvements.
 
-## ファイル構成
-- **index.html** : メインのHTMLファイル
-- **styles.css** : スタイルシート
-- **app.js** : JavaScript ロジック
-- **data.txt** : AI Marketing Team エージェントデータファイル
+## File Structure
+- **index.html**: Main HTML file
+- **styles.css**: Stylesheet
+- **app.js**: JavaScript logic
+- **data.txt**: AI Marketing Team agent data file
 
-## 使用方法
-`index.html` をブラウザで開くだけ。 
+## Usage
+Simply open `index.html` in your browser. 
