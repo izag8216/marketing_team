@@ -4,100 +4,100 @@
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-> **革新的なAIマーケティングチームによる包括的ビジネスサポート**  
-> 6つの専門AIエージェントが連携して、あなたのマーケティング活動を次のレベルへ
+> **Comprehensive business support through innovative AI marketing team**  
+> Six specialized AI agents collaborate to take your marketing activities to the next level
 
 ![AI Marketing Team Preview](https://via.placeholder.com/800x400/2D3748/FFFFFF?text=AI+Marketing+Team+Dashboard)
 
-## ✨ 概要
+## ✨ Overview
 
-**AI Marketing Team**は、6つの専門化されたAIエージェントの協力により、ユーザーのビジネスマーケティング活動に包括的なサポートを提供するWebアプリケーションです。
+**AI Marketing Team** is a web application that provides comprehensive support for users' business marketing activities through the collaboration of six specialized AI agents.
 
-このプロジェクトは、魅力的なランディングページ（LP）を持つMVPデモサイトをHTML/CSS/JSで構築し、このコンセプトを提示します。
+This project presents the concept by building an MVP demo site with an attractive landing page (LP) using HTML/CSS/JS.
 
-### 🎯 プロジェクトの目的
+### 🎯 Project Objectives
 
-- **主要目標**: AI駆動の並列開発環境テスト（Cursor、Claude Code、Git Worktree、tmux、GitHub Actionsなど）
-- **MVP性質**: デモサイトでダミーデータを表示する機能に制限
-- **フロントエンド重視**: UI/UXデモンストレーションに特化
-- **開発環境**: バックエンド機能は実装されていません
+- **Primary Goal**: AI-driven parallel development environment testing (Cursor, Claude Code, Git Worktree, tmux, GitHub Actions, etc.)
+- **MVP Nature**: Limited functionality to display dummy data on demo site
+- **Frontend Focus**: Specialized in UI/UX demonstration
+- **Development Environment**: Backend functionality is not implemented
 
-## 🚀 特徴
+## 🚀 Features
 
-- 🎨 **モダンなデザイン**: ミニマルで洗練されたプロフェッショナルなUI
-- 🌓 **ダークモード対応**: ライト/ダークテーマの切り替え機能
-- 📱 **レスポンシブ対応**: モバイルファーストアプローチ
-- ⚡ **高速読み込み**: バニラJavaScriptによる軽量実装
-- 🔧 **CRUD操作**: ローカルストレージベースのエージェント管理
+- 🎨 **Modern Design**: Minimal, sophisticated, and professional UI
+- 🌓 **Dark Mode Support**: Light/dark theme toggle functionality
+- 📱 **Responsive Design**: Mobile-first approach
+- ⚡ **Fast Loading**: Lightweight implementation with vanilla JavaScript
+- 🔧 **CRUD Operations**: Local storage-based agent management
 
-## 🤖 AIエージェント構成
+## 🤖 AI Agent Configuration
 
-### 中核となる6つの専門エージェント
+### Six Core Specialized Agents
 
-| エージェント | 役割 | 専門分野 |
-|------------|------|---------|
-| 🎯 **Orchestrator** | 全体統括・連携管理 | タスク調整、進捗監視、リソース配分、チーム最適化 |
-| 📊 **Strategy Planner** | 戦略立案・分析 | 市場トレンド分析、競合調査、データ駆動戦略策定 |
-| ✍️ **Content Creator** | コンテンツ制作 | ブログ、SNS投稿、動画、インフォグラフィック制作 |
-| 🔍 **SEO/SEM Specialist** | 検索最適化 | SEO戦略、キーワードリサーチ、広告キャンペーン運用 |
-| 📱 **Social Media Manager** | SNS運営 | エンゲージメント戦略、フォロワー獲得、ブランドロイヤリティ向上 |
-| 📈 **Data Analyst** | データ分析・レポート | キャンペーン効果測定、顧客行動分析、改善提案 |
+| Agent | Role | Expertise |
+|-------|------|-----------|
+| 🎯 **Orchestrator** | Overall coordination & collaboration management | Task coordination, progress monitoring, resource allocation, team optimization |
+| 📊 **Strategy Planner** | Strategic planning & analysis | Market trend analysis, competitive research, data-driven strategy development |
+| ✍️ **Content Creator** | Content production | Blog, social media posts, video, infographic creation |
+| 🔍 **SEO/SEM Specialist** | Search optimization | SEO strategy, keyword research, advertising campaign management |
+| 📱 **Social Media Manager** | Social media management | Engagement strategy, follower acquisition, brand loyalty improvement |
+| 📈 **Data Analyst** | Data analysis & reporting | Campaign effectiveness measurement, customer behavior analysis, improvement proposals |
 
-## 🏗️ アーキテクチャ
+## 🏗️ Architecture
 
 ```
 📁 AI Marketing Team
-├── 🌐 index.html      # メインランディングページ
-├── 🎨 styles.css      # レスポンシブCSS（ライト/ダークモード対応）
-├── ⚙️ app.js          # クライアントサイドロジック（データ読み込み、テーマ切り替え）
-├── 📄 data.txt        # AIエージェントデータ（CSV形式）
-└── 📚 CLAUDE.md       # 開発ガイドライン
+├── 🌐 index.html      # Main landing page
+├── 🎨 styles.css      # Responsive CSS (light/dark mode support)
+├── ⚙️ app.js          # Client-side logic (data loading, theme toggle)
+├── 📄 data.txt        # AI agent data (CSV format)
+└── 📚 CLAUDE.md       # Development guidelines
 ```
 
-### データフロー
+### Data Flow
 
 ```mermaid
 graph LR
-    A[ページ読み込み] --> B[app.js実行]
-    B --> C[data.txt取得]
-    C --> D[CSV解析]
-    D --> E[エージェントカード生成]
-    E --> F[DOM挿入]
-    F --> G[ダッシュボード表示]
+    A[Page Load] --> B[app.js Execution]
+    B --> C[data.txt Fetch]
+    C --> D[CSV Parsing]
+    D --> E[Agent Card Generation]
+    E --> F[DOM Insertion]
+    F --> G[Dashboard Display]
 ```
 
-## 🛠️ 技術スタック
+## 🛠️ Tech Stack
 
-- **フロントエンド**: HTML5, CSS3, Vanilla JavaScript (ES6+)
-- **スタイリング**: CSS Grid, Flexbox, CSS Variables
-- **データ**: CSV形式（data.txt）
-- **ストレージ**: LocalStorage
-- **ホスティング**: GitHub Pages対応
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript (ES6+)
+- **Styling**: CSS Grid, Flexbox, CSS Variables
+- **Data**: CSV format (data.txt)
+- **Storage**: LocalStorage
+- **Hosting**: GitHub Pages compatible
 
-## 🚀 クイックスタート
+## 🚀 Quick Start
 
-### 1. リポジトリをクローン
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/izag8216/marketing_team.git
 cd marketing_team
 ```
 
-### 2. ローカルで実行
+### 2. Run Locally
 
 ```bash
-# 方法1: シンプルにブラウザで開く
+# Method 1: Simply open in browser
 open index.html
 
-# 方法2: ライブサーバーを使用（推奨）
-# VS Codeのlive serverエクステンションまたは
+# Method 2: Use live server (recommended)
+# VS Code live server extension or
 python -m http.server 8000
-# 然后访问 http://localhost:8000
+# Then visit http://localhost:8000
 ```
 
-### 3. エージェントデータをカスタマイズ
+### 3. Customize Agent Data
 
-`data.txt`を編集してエージェント情報を変更：
+Edit `data.txt` to modify agent information:
 
 ```csv
 name,type,specialty,status,tasks,kpi,linked_tools,created_at
@@ -106,11 +106,11 @@ Strategy Planner,Analytics,Market Research,Active,3,88%,Google Analytics,2024-01
 ...
 ```
 
-## 🎨 カスタマイズ
+## 🎨 Customization
 
-### テーマの変更
+### Theme Modification
 
-CSS変数を編集してブランドカラーをカスタマイズ：
+Edit CSS variables to customize brand colors:
 
 ```css
 :root {
@@ -120,55 +120,55 @@ CSS変数を編集してブランドカラーをカスタマイズ：
 }
 ```
 
-### エージェントの追加
+### Adding Agents
 
-1. `data.txt`に新しいエージェント情報を追加
-2. 必要に応じて`app.js`のロジックを調整
-3. スタイルをカスタマイズ
+1. Add new agent information to `data.txt`
+2. Adjust `app.js` logic as needed
+3. Customize styles
 
-## 📊 パフォーマンス
+## 📊 Performance
 
-- ⚡ **読み込み時間**: < 100ms
-- 📦 **バンドルサイズ**: < 50KB
-- 🔧 **依存関係**: Zero dependencies
-- 📱 **モバイル対応**: 100% responsive
+- ⚡ **Load Time**: < 100ms
+- 📦 **Bundle Size**: < 50KB
+- 🔧 **Dependencies**: Zero dependencies
+- 📱 **Mobile Support**: 100% responsive
 
-## 🤝 貢献
+## 🤝 Contributing
 
-プロジェクトへの貢献を歓迎します！
+Contributions to the project are welcome!
 
-1. リポジトリをフォーク
-2. フィーチャーブランチを作成 (`git checkout -b feature/amazing-feature`)
-3. コミット (`git commit -m 'Add amazing feature'`)
-4. ブランチにプッシュ (`git push origin feature/amazing-feature`)
-5. Pull Requestを作成
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Create a Pull Request
 
-## 📝 ライセンス
+## 📝 License
 
-このプロジェクトは[MIT License](LICENSE)の下で公開されています。
+This project is published under the [MIT License](LICENSE).
 
-## 🔗 リンク
+## 🔗 Links
 
-- 📖 [ドキュメント](docs/)
-- 🐛 [バグレポート](https://github.com/izag8216/marketing_team/issues)
-- 💡 [機能提案](https://github.com/izag8216/marketing_team/discussions)
-- 🚀 [ライブデモ](https://izag8216.github.io/marketing_team/)
+- 📖 [Documentation](docs/)
+- 🐛 [Bug Reports](https://github.com/izag8216/marketing_team/issues)
+- 💡 [Feature Requests](https://github.com/izag8216/marketing_team/discussions)
+- 🚀 [Live Demo](https://izag8216.github.io/marketing_team/)
 
-## 📞 サポート
+## 📞 Support
 
-質問やサポートが必要な場合：
+For questions or support:
 
-- 📧 [Issues](https://github.com/izag8216/marketing_team/issues)で報告
-- 💬 [Discussions](https://github.com/izag8216/marketing_team/discussions)で議論
-- ⭐ プロジェクトが気に入ったらスターをお願いします！
+- 📧 Report via [Issues](https://github.com/izag8216/marketing_team/issues)
+- 💬 Discuss via [Discussions](https://github.com/izag8216/marketing_team/discussions)
+- ⭐ Please star the project if you like it!
 
 ---
 
 <div align="center">
 
-**🤖 AI Marketing Team で、あなたのマーケティングを次のレベルへ**
+**🤖 Take your marketing to the next level with AI Marketing Team**
 
-[デモを見る](https://izag8216.github.io/marketing_team/) • [使い方を学ぶ](docs/) • [貢献する](CONTRIBUTING.md)
+[View Demo](https://izag8216.github.io/marketing_team/) • [Learn Usage](docs/) • [Contribute](CONTRIBUTING.md)
 
 Made with ❤️ by [izag8216](https://github.com/izag8216)
 
