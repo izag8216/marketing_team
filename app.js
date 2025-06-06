@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const lines = textData.trim().split('\n');
             
             const agents = lines.map(line => {
-                const [name, type, specialty, status, tasks, kpi, linked_tools, created_at] = line.split(',');
-                return { name, type, specialty, status, tasks, kpi, linked_tools, created_at };
+                const [name, type, specialty, status, tasks, kpi, linked_tools, created_at, monthly_active_tasks] = line.split(',');
+                return { name, type, specialty, status, tasks, kpi, linked_tools, created_at, monthly_active_tasks };
             });
             // console.log('AI Agents Loaded:', agents);
             displayAgents(agents);
@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="agent-specialty"><strong>Specialty:</strong> ${agent.specialty}</p>
                 <p><strong>Status:</strong> ${agent.status}</p>
                 <p><strong>Key Tasks:</strong> ${agent.tasks}</p>
+                <p><strong>Monthly Active Tasks:</strong> ${agent.monthly_active_tasks}</p>
                 <p><strong>KPI:</strong> ${agent.kpi}</p>
                 <div class="agent-details">
                     <p><strong>Linked Tools:</strong> ${agent.linked_tools}</p>
@@ -93,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let agentsText = localStorage.getItem('agentsData');
         if (!agentsText) agentsText = '';
         // 新しいエージェントデータを追加
-        const newAgentLine = `${agentData.name},${agentData.type},${agentData.specialty},${agentData.status},${agentData.tasks},${agentData.kpi},${agentData.linked_tools},${agentData.created_at}`;
+        const newAgentLine = `${agentData.name},${agentData.type},${agentData.specialty},${agentData.status},${agentData.tasks},${agentData.kpi},${agentData.linked_tools},${agentData.created_at},${agentData.monthly_active_tasks}`;
         const updatedAgentsText = agentsText ? `${agentsText}\n${newAgentLine}` : newAgentLine;
         localStorage.setItem('agentsData', updatedAgentsText);
         console.log('Agent added (emulated):', agentData);
@@ -108,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let lines = agentsText.split('\n');
         const agentIndex = lines.findIndex(line => line.startsWith(agentName + ','));
         if (agentIndex > -1) {
-            lines[agentIndex] = `${updatedData.name},${updatedData.type},${updatedData.specialty},${updatedData.status},${updatedData.tasks},${updatedData.kpi},${updatedData.linked_tools},${updatedData.created_at}`;
+            lines[agentIndex] = `${updatedData.name},${updatedData.type},${updatedData.specialty},${updatedData.status},${updatedData.tasks},${updatedData.kpi},${updatedData.linked_tools},${updatedData.created_at},${updatedData.monthly_active_tasks}`;
             localStorage.setItem('agentsData', lines.join('\n'));
             console.log('Agent edited (emulated):', updatedData);
             loadAgentData();
