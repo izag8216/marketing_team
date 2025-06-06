@@ -1,6 +1,6 @@
-Orchestrator,Orchestrator,Overall Management & Collaboration,Active,Project A Kickoff Meeting Coordination,Project Delay Rate <5%,Asana, Slack,2024-07-15
-Strategy Planner,Strategy,Market Analysis & Strategy Planning,Active,Q3 Market Trend Report Creation,Strategy Adoption Rate 80%,Google Analytics, SEMrush,2024-07-15
-Content Creator,Content,Article Creation & SNS Post Production,Active,New Product Introduction Blog Post Writing,Article Engagement Rate +10%,Canva, Grammarly,2024-07-15
-SEO/SEM Specialist,SEO/SEM,SEO Strategy & Ad Management,Active,Target Keyword List Update,Organic Search Inflow +20%,Google Ads, Ahrefs,2024-07-15
-Social Media Manager,Social,SNS Management & Community Engagement,Active,Weekly Post Calendar Creation,Follower Growth Rate 5%/month,Hootsuite, Sprout Social,2024-07-15
-Data Analyst,Analytics,Data Collection, Analysis & Reporting,Active,Monthly Performance Report Creation,Report Creation Time -10%,Tableau, Google Data Studio,2024-07-15 
+Orchestrator,Orchestrator,Overall Management & Collaboration,Active,Project A Kickoff Meeting Coordination,Project Delay Rate <5%,Asana, Slack,2024-07-15,127
+Strategy Planner,Strategy,Market Analysis & Strategy Planning,Active,Q3 Market Trend Report Creation,Strategy Adoption Rate 80%,Google Analytics, SEMrush,2024-07-15,89
+Content Creator,Content,Article Creation & SNS Post Production,Active,New Product Introduction Blog Post Writing,Article Engagement Rate +10%,Canva, Grammarly,2024-07-15,156
+SEO/SEM Specialist,SEO/SEM,SEO Strategy & Ad Management,Active,Target Keyword List Update,Organic Search Inflow +20%,Google Ads, Ahrefs,2024-07-15,203
+Social Media Manager,Social,SNS Management & Community Engagement,Active,Weekly Post Calendar Creation,Follower Growth Rate 5%/month,Hootsuite, Sprout Social,2024-07-15,178
+Data Analyst,Analytics,Data Collection, Analysis & Reporting,Active,Monthly Performance Report Creation,Report Creation Time -10%,Tableau, Google Data Studio,2024-07-15,95 
